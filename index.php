@@ -133,7 +133,8 @@
 				echo "Соединение не удалось";
 			}
 		?>
-		<h2><?php
+		<h2>Введите номер заказа
+			<!-- <?php
 			if(isset($_GET['order_id']))
 			{
 				$order_id = $_GET['order_id'];
@@ -151,7 +152,8 @@
 				}
 			} else
     			echo "Введите номер заказа"
-  		?></h2>
+  		?> -->
+		</h2>
 	<hr class="line">
 </section>
 
